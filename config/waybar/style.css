@@ -100,15 +100,3 @@ label:focus {
     color: blue;
 }
 
-#idle_inhibitor {
-    background-color: #171717;
-    border-radius: 20px 0px 0px 20px;
-
-}
-
-#idle_inhibitor.activated {
-    background-color: #171717;
-    color: #ffffff;
-    border-radius: 20px 0px 0px 20px;
-
-}
