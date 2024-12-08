@@ -1,0 +1,25 @@
+sort=-time
+layer=overlay
+width=400
+height=300
+border-size=2
+border-color=#ffffff
+border-radius=10
+default-timeout=10000
+ignore-timeout=1
+font="Source Han Sans CN" 14
+background-color=#333333
+
+[urgency=low]
+background-color=#555555
+on-notify=exec ffplay -nodisp -autoexit /usr/share/sounds/freedesktop/stereo/message.oga
+
+[urgency=normal]
+background-color=#333333
+on-notify=exec ffplay -nodisp -autoexit /usr/share/sounds/freedesktop/stereo/complete.oga
+
+
+[urgency=high]
+background-color=#ff0000
+default-timeout=0
+on-notify=exec ffplay -nodisp -autoexit /usr/share/sounds/freedesktop/stereo/suspend-error.oga

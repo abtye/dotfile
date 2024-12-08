@@ -1,0 +1,20 @@
+runtime! archlinux.vim
+
+syntax on
+filetype on
+
+set nu
+set list
+set listchars=tab:>-,trail:-
+set completeopt=preview,menu
+set clipboard=unnamed
+set nobackup
+set noswapfile
+set ruler
+set cursorline
+set nocompatible
+set softtabstop=4
+set shiftwidth=4
+
+set confirm
+set backspace=2

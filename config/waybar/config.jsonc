@@ -1,0 +1,66 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 30,
+    "spacing": 0,
+    "margin": 0,
+    "modules-left": [
+        "custom/launcher",
+        "wlr/taskbar"
+    ],
+    "modules-right": [
+        "tray",
+        "wireplumber",
+        "backlight",
+        "battery",
+        "clock",
+        "custom/power"
+    ],
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 30,
+        "icon-theme": "Papirus-Dark",
+        "tooltip-format": "{title}",
+        "on-click": "minimize-raise"
+    },
+    "tray": {
+        "icon-size": 20,
+        "spacing": 10
+    },
+    "clock": {
+        "tooltip-format": "{:%Y-%m-%d %a}",
+        "format": "{:%I:%M %p}" // 12小时制格式
+    },
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{icon}{percent}",
+        "format-icons": [
+            "󰹐 ",
+            "󱩍 ",
+            "󱩎 ",
+            "󱩏 ",
+            "󱩐 ",
+            "󱩑 ",
+            "󱩒 ",
+            "󱩓 ",
+            "󱩕 ",
+            "󱩖 "
+        ]
+    },
+    "wireplumber": {
+        "format": "{icon} {volume}",
+        "format-muted": "󰖁",
+        "format-icons": [
+            " "
+        ]
+    },
+    "custom/launcher": {
+        "format": "   ",
+        "on-click": "wofi --show drun",
+        "on-click-right": "killall wofi"
+    },
+    "custom/power": {
+        "format": " ",
+        "on-click": "wlogout"
+    }
+}

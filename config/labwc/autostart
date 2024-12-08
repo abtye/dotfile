@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+waybar > /dev/null 2>&1 &
+mako > /dev/null 2>&1 &
+fcitx5 > /dev/null 2>&1 &
+/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 > /dev/null 2>&1 &
+wl-paste --watch cliphist -max-items 100 store > /dev/null 2>&1 &
+foot --server > /dev/null 2>&1 &
