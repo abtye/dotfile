@@ -1,0 +1,55 @@
+{
+  "mode": "disable",
+  "sync": false,
+  "autoBackup": false,
+  "passthrough": "localhos*\n*bing.com\n*bilibili.com",
+  "theme": "moonlight",
+  "container": {
+    "incognito": "",
+    "container-1": "",
+    "container-2": "",
+    "container-3": "",
+    "container-4": ""
+  },
+  "commands": {
+    "setProxy": "",
+    "setTabProxy": "",
+    "quickAdd": ""
+  },
+  "data": [
+    {
+      "active": true,
+      "title": "TOR",
+      "type": "socks5",
+      "hostname": "127.0.0.1",
+      "port": "9150",
+      "username": "",
+      "password": "",
+      "cc": "",
+      "city": "",
+      "color": "#813d9c",
+      "pac": "",
+      "pacString": "",
+      "proxyDNS": true,
+      "include": [],
+      "exclude": []
+    },
+    {
+      "active": true,
+      "title": "CloudFlare",
+      "type": "http",
+      "hostname": "127.0.0.1",
+      "port": "7897",
+      "username": "",
+      "password": "",
+      "cc": "",
+      "city": "",
+      "color": "#e5a50a",
+      "pac": "",
+      "pacString": "",
+      "proxyDNS": true,
+      "include": [],
+      "exclude": []
+    }
+  ]
+}
