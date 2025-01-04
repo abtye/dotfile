@@ -3,7 +3,7 @@
   <theme>
     <name>Onyx-black</name>
     <cornerRadius>10</cornerRadius>
-    <font name="sans" size="12"/>
+    <font name="sans" size="16"/>
     <dropShadows>no</dropShadows>
   </theme>
   <keyboard>

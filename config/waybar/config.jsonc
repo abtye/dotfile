@@ -24,7 +24,7 @@
         "on-click": "minimize-raise"
     },
     "tray": {
-        "icon-size": 20,
+        "icon-size": 30,
         "spacing": 10
     },
     "clock": {
