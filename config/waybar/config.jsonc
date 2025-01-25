@@ -32,7 +32,6 @@
         "format": "{:%I:%M %p}" // 12小时制格式
     },
     "backlight": {
-        // "device": "acpi_video1",
         "format": "{icon}{percent}",
         "format-icons": [
             "󰹐 ",

@@ -1,0 +1,92 @@
+#智能选择
+Server = https://mirrors.cernet.edu.cn/archlinux/$repo/os/$arch
+
+#按地理位置从北到南、从东到西排序
+
+#吉林
+    #吉林大学
+        Server = https://mirrors.jlu.edu.cn/archlinux/$repo/os/$arch
+
+#辽宁
+    #大连东软信息学院
+        Server = https://mirrors.neusoft.edu.cn/archlinux/$repo/os/$arch
+
+#甘肃
+    #兰州大学
+        Server = https://mirror.lzu.edu.cn/archlinux/$repo/os/$arch
+
+#陕西
+    #西安交通大学
+        Server = https://mirrors.xjtu.edu.cn/archlinux/$repo/os/$arch
+    #西北农林大学
+        Server = https://mirrors.nwafu.edu.cn/archlinux/$repo/os/$arch
+
+#北京
+    #清华大学
+        Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
+    #北京大学
+        Server = https://mirrors.pku.edu.cn/archlinux/$repo/os/$arch
+    #北京外国语大学
+        Server = https://mirrors.bfsu.edu.cn/archlinux/$repo/os/$arch
+    #北京交通大学
+        Server = https://mirror.bjtu.edu.cn/archlinux/$repo/os/$arch
+
+#山东
+    #山东大学
+        Server = https://mirrors.sdu.edu.cn/archlinux/$repo/os/$arch
+    #齐鲁工业大学
+        Server = https://mirrors.qlu.edu.cn/archlinux/$repo/os/$arch
+
+#江苏
+    #南京大学
+        Server = https://mirror.nju.edu.cn/archlinux/$repo/os/$arch
+    #南京工业大学
+        Server = https://mirrors.njtech.edu.cn/archlinux/$repo/os/$arch
+
+#安徽
+    #中国科学技术大学
+        Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
+
+#河南
+    #南阳理工学院
+        Server = https://mirror.nyist.edu.cn/archlinux/$repo/os/$arch
+
+#湖北
+    #荆楚理工学院
+        Server = https://mirrors.jcut.edu.cn/archlinux/$repo/os/$arch
+    #武昌首义学院
+        Server = https://mirrors.wsyu.edu.cn/archlinux/$repo/os/$arch
+
+#上海
+    #上海科技大学
+        Server = https://mirrors.shanghaitech.edu.cn/archlinux/$repo/os/$arch
+    #上海交通大学
+        Server = https://mirror.sjtu.edu.cn/archlinux/$repo/os/$arch
+
+#四川
+    #电子科技大学
+        Server = https://mirrors.uestc.cn/archlinux/$repo/os/$arch
+
+#重庆
+    #重庆大学
+        Server = https://mirrors.cqu.edu.cn/archlinux/$repo/os/$arch
+    #重庆邮电大学
+        Server = https://mirrors.cqupt.edu.cn/archlinux/$repo/os/$arch
+
+#浙江
+    #浙江大学
+        Server = https://mirrors.zju.edu.cn/archlinux/$repo/os/$arch
+
+#广东
+    #华南农业大学
+        Server = https://mirrors.scau.edu.cn/archlinux/$repo/os/$arch
+    #南方科技大学
+        Server = https://mirrors.sustech.edu.cn/archlinux/$repo/os/$arch
+
+#不清楚地理位置
+    #网易
+        Server = https://mirrors.163.com/archlinux/$repo/os/$arch
+    #阿里云
+        Server = https://mirrors.aliyun.com/archlinux/$repo/os/$arch
+    #中国科学院软件研究所
+        Server = https://mirror.iscas.ac.cn/archlinux/$repo/os/$arch

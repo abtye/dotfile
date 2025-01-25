@@ -34,6 +34,8 @@ alias aap "aapt2 dump badging"
 alias gc1 "git clone --depth=1"
 alias p ping
 alias pacmark "sudo pacman -D --asexplicit"
+alias acg "advcp -g"
+alias amg "advmv -g"
 
 set RUSTUP_DIST_SERVER "https://rsproxy.cn"
 set RUSTUP_UPDATE_ROOT "https://rsproxy.cn/rustup"

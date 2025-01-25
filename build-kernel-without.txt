@@ -1,0 +1,108 @@
+General setup
+    Preemption Model
+	No Forced Preemption (Server)
+    Preemption behaviour defined on boot
+
+Processor type and features
+    AMD ACPI2Platform devices support
+    Linux guest support
+    Old AMD GART IOMMU support
+    AMD MCE features
+    Performance monitoring
+	AMD Zen3 Branch Sampling support
+    AMD Secure Memory Encryption (SME) support
+
+Virtualization
+    KVM for AMD processors support
+
+Enable the block layer
+    Partition Types
+        AIX basic partition table support
+        Alpha OSF partition support
+        Amiga partition table support
+        Atari partition table support
+        Macintosh partition map support
+        PC BIOS (MSDOS partition tables) support
+        BSD disklabel (FreeBSD partition tables) support
+        Minix subpartition support
+        Solaris (x86) partition table support
+        Unixware slices support
+        Windows Logical Disk Manager (Dynamic Disk) support
+        Windows LDM extra logging
+        SGI partition support
+        Ultrix partition table support
+        Sun partition tables support
+        Karma Partition support
+        SYSV68 partition table support
+    IO Schedulers
+	BFQ I/O scheduler
+
+Memory Management options
+    Support for paging of anonymous memory (swap)
+    Memory hotplug
+    Transparent Hugepage Support
+
+Networking support
+    Amateur Radio support
+
+Device Drivers
+    PCI support
+	Default ASPM policy
+        Support for PCI Hotplug
+    Fusion MPT device support
+    Network device support
+	Ethernet driver support
+    Character devices
+	HPET - High Precision Event Timer
+    Watchdog Timer Support
+    Remote Controller support
+    Multimedia support
+    Graphics support
+	/dev/agpgart (AGP Support)
+	Laptop Hybrid Graphics - GPU switching support
+	Direct Rendering Manager
+	    Simple framebuffer driver
+    Compute Acceleration Framework 
+    Sound card support
+	Advanced Linux Sound Architecture
+	    PCI sound devices
+		Intel/SiS/nVidia/AMD/ALi AC97 Controller
+    MMC/SD/SDIO card support
+    Accessibility support
+    Virtio drivers
+    SoundWire support
+	AMD SoundWire Manager driver
+    SOC (System On Chip) specific Drivers
+	TI SOC drivers support
+    Android
+	Android Binderfs filesystem(binder,hwbinder,vndbinder)
+
+File systems
+    Virtio Filesystem
+    Pseudo filesystems
+	HugeTLB file system support
+
+Security options
+    SELinux Support
+    TOMOYO Linux Support
+    AppArmor support
+    Yama support
+
+Cryptographic API
+    Hardware crypto devices
+	Support for AMD Secure Processor
+
+vmw_vsock
+snd-sof-amd-acp.ko.zst
+snd-sof-amd-renoir.ko.zst
+xtensa
+└── snd-sof-xtensa-dsp.ko.zst
+
+CONFIG_DRM_SIMPLEDRM
+CONFIG_SYSFB_SIMPLEFB
+CONFIG_FB_SIMPLE
+CONFIG_FB_EFI
+CONFIG_TRANSPARENT_HUGEPAGE
+CONFIG_HUGETLBFS
+CONFIG_HPET
+CONFIG_WATCHDOG
