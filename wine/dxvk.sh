@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 定义目录变量
-DXVK_DIR="dxvk"
+DXVK_DIR="$PWD/dxvk"
 WINE_SYSTEM32="$HOME/.wine/drive_c/windows/system32"
 WINE_SYSWOW64="/home/lin/.wine/drive_c/windows/syswow64"
 

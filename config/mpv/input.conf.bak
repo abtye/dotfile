@@ -1,0 +1,17 @@
+LEFT no-osd seek -5 #方向键左 后退5秒
+RIGHT no-osd seek 5 #方向键右 快进5秒
+RIGHT no-osd set speed 3; set pause no #长按3倍速
+RIGHT ignore #松开时什么都不做
+
+MBTN_LEFT cycle pause #左键 暂停/继续
+ESC set fullscreen no #ESC 退出全屏
+UP add volume 5 #方向键上 音量+5
+DOWN add volume -5 #方向键下 音量-5
+
+
+q playlist-prev #播放列表上一个
+e playlist-next #播放列表下一个
+a add chapter -1 #视频上一章节
+d add chapter 1 #视频下一章节
+p set speed 1.0 #播放速度设为1
+TAB script-binding stats/display-stats-toggle #打开播放信息

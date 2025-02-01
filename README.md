@@ -18,3 +18,8 @@ Virt-Manager激活网络
 sudo virsh net-autostart default
 sudo virsh net-list --all
 ```
+
+## Cloudflare Warp
+
+启用MASQUE协议：把`mdm.xml`放到`/var/lib/cloudflare-warp/`下  
+使用`warp-cli settings | grep protocol`查看

@@ -1,69 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <openbox_menu>
-<!-- Note: for localization support of menu items "client-menu" has to be removed here -->
-<menu id="client-menu">
-  <item label="最小化">
-    <action name="Iconify" />
-  </item>
-  <item label="最大化">
-    <action name="ToggleMaximize" />
-  </item>
-  <item label="全屏">
-    <action name="ToggleFullscreen" />
-  </item>
-  <item label="装饰">
-    <action name="ToggleDecorations" />
-  </item>
-  <item label="置顶">
-    <action name="ToggleAlwaysOnTop" />
-  </item>
-  <!--
-    Any menu with the id "workspaces" will be hidden
-    if there is only a single workspace available.
-  -->
-  <menu id="workspaces" label="Workspace">
-    <item label="Move Left">
-      <action name="SendToDesktop" to="left" />
-    </item>
-    <item label="Move Right">
-      <action name="SendToDesktop" to="right" />
-    </item>
-    <separator />
-    <item label="Always on Visible Workspace">
-      <action name="ToggleOmnipresent" />
-    </item>
-  </menu>
-  <item label="关闭">
-    <action name="Close" />
-  </item>
-</menu>
+    <!-- Note: for localization support of menu items "client-menu" has to be removed here -->
+    <menu id="client-menu">
+        <item label="最小化">
+            <action name="Iconify" />
+        </item>
+        <item label="最大化">
+            <action name="ToggleMaximize" />
+        </item>
+        <item label="全屏">
+            <action name="ToggleFullscreen" />
+        </item>
+        <item label="切换装饰">
+            <action name="ToggleDecorations" />
+        </item>
+        <item label="置顶">
+            <action name="ToggleAlwaysOnTop" />
+        </item>
+        <item label="关闭">
+            <action name="Close" />
+        </item>
+    </menu>
 
-<menu id="root-menu">
-  <item label="浏览器">
-    <action name="Execute" command="firefox" />
-  </item>
-  <item label="终端">
-    <action name="Execute" command="tilix" />
-  </item>
-  <item label="配置重载">
-    <action name="Reconfigure" />
-  </item>
-  <item label="退出">
-    <action name="Exit" />
-  </item>
-  <item label="关机">
-    <action name="Execute" command="systemctl -i poweroff" />
-  </item>
-</menu>
+    <menu id="root-menu"></menu>
 
-<menu id="some-custom-menu">
-  <item label="配置重载">
-    <action name="Reconfigure" />
-  </item>
-  <item label="退出">
-    <action name="Exit" />
-  </item>
-</menu>
+    <menu id="some-custom-menu">
+        <item label="配置重载">
+            <action name="Reconfigure" />
+        </item>
+        <item label="退出">
+            <action name="Exit" />
+        </item>
+    </menu>
 
 </openbox_menu>

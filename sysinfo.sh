@@ -4,6 +4,7 @@ echo -e "----------"
 
 echo -e "\033[32m 电池剩余 \033[0m"
 cat /sys/class/power_supply/BAT0/capacity
+cat /sys/class/power_supply/BAT0/status
 echo -e "----------"
 
 echo -e "\033[32m IO 调度器 \033[0m"

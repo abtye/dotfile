@@ -1,3 +1,5 @@
+set TERM screen-256color
+
 if status is-interactive
 end
 
