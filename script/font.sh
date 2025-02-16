@@ -1,0 +1,10 @@
+echo Sans-Serif
+fc-match sans-serif
+echo Serif
+fc-match serif
+echo MonoSpace
+fc-match monospace
+echo Math
+fc-match math
+echo Emoji
+fc-match emoji

@@ -23,7 +23,7 @@ local user_opts = {
     scalefullscreen = 1.0,      -- scaling of the controller when fullscreen
     scaleforcedwindow = 2.0,    -- scaling when rendered on a forced window
     vidscale = true,            -- scale the controller with the video?
-    hidetimeout = 1500,         -- duration in ms until the OSC hides if no
+    hidetimeout = 1000,         -- duration in ms until the OSC hides if no
                                 -- mouse movement. enforced non-negative for the
                                 -- user, but internally negative is 'always-on'.
     fadeduration = 250,         -- duration of fade out in ms, 0 = no fade
@@ -46,17 +46,17 @@ local user_opts = {
                                 -- 'exact', 'relative+keyframes', etc.
     title = '${media-title}',   -- string compatible with property-expansion
                                 -- to be shown as OSC title
-    showtitle = true,		-- show title in OSC
-    showonpause = true,         -- whether to disable the hide timeout on pause
+    showtitle = true,		-- 在OSC中显示标题
+    showonpause = false,         -- 暂停时不持续显示
     timetotal = true,          	-- display total time instead of remaining time?
     timems = false,             -- Display time down to millliseconds by default
     visibility = 'auto',        -- only used at init to set visibility_mode(...)
     windowcontrols = 'auto',    -- whether to show window controls
     greenandgrumpy = false,     -- disable santa hat
-    language = 'eng',		-- eng=English, chs=Chinese
+    language = 'chs',		-- eng=English, chs=Chinese
     volumecontrol = true,       -- whether to show mute button and volume slider
     keyboardnavigation = false, -- enable directional keyboard navigation
-    chapter_fmt = "Chapter: %s", -- chapter print format for seekbar-hover. "no" to disable
+    chapter_fmt = "章节：%s", -- chapter print format for seekbar-hover. "no" to disable
 }
 
 -- Icons for jump button depending on jumpamount 
@@ -114,21 +114,6 @@ local language = {
 		nolist = '无列表信息',
 		chapter = '章节',
 		nochapter = '无章节信息',
-	},
-	['pl'] = {
-	    welcome = '{\\fs24\\1c&H0&\\1c&HFFFFFF&}Upuść plik lub łącze URL do odtworzenia.',  -- this text appears when mpv starts
-		off = 'WYŁ.',
-		na = 'n/a',
-		none = 'nic',
-		video = 'Wideo',
-		audio = 'Ścieżka audio',
-		subtitle = 'Napisy',
-		available = 'Dostępne ',
-		track = ' Ścieżki:',
-		playlist = 'Lista odtwarzania',
-		nolist = 'Lista odtwarzania pusta.',
-		chapter = 'Rozdział',
-		nochapter = 'Brak rozdziałów.',
 	}
 }
 -- read options from config and command-line

@@ -1,103 +1,63 @@
-#tray menu {
-    background-color: #333333;
-}
-
 * {
     padding: 0;
     margin: 0;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     font-family: "CodeNewRoman Nerd Font", "Source Han Sans CN";
-    font-size: 26px;
-    min-height: 0;
+    font-size: 24px;
     color: white;
 }
 
-#tray,
-#wireplumber,
-#backlight,
-#battery,
-#clock,
-#custom-power {
+label.module{
     padding: 0 10px;
 }
 
-window#waybar {
-    background-color: #333333;
+#tray{
+    min-width: 50px;
+}
+
+#waybar {
+    background-color: #333333
 }
 
 #clock {
-    background-color: #171717;
+    background-color: #64727D;
 }
 
 #battery {
     background-color: darkgreen;
 }
 
-#battery.charging,
-#battery.plugged {
-    background-color: #26A65B;
-}
-
-label:focus {
-    background-color: black;
-}
-
-
 #backlight {
-    background-color: #90b1b1;
+    background-color: #e5a50a;
 }
 
-#wireplumber {
-    background-color: #171717;
-    color: #ffffff;
-}
-
-#wireplumber.muted {
-    background-color: #171717;
+#pulseaudio.muted {
     color: #ff0000;
 }
-
 
 #custom-power {
     background-color: red;
     color: white;
-    font-size: 20px;
+    font-size: 32px;
     border-radius: 20px;
 
 }
 
-#custom-launcher {
-    font-size: 20px;
+/* #custom-launcher {
     border: 1px solid white;
     border-radius: 20px;
 
+} */
+
+#taskbar>* {
+    padding: 0 10px;
 }
 
-#taskbar {
-    padding: 0;
-    margin: 0;
-}
-
-#taskbar > * {
-    margin: 0;
-    padding : 0 10px;
+#taskbar button.active {
+    background-color: #1b8f95;
 }
 
 #tray {
     background-color: #64727D;
-    color: blue;
 }
-
-#tray>.passive {
-    -gtk-icon-effect: dim;
-    background-color: #171717;
-    color: blue;
-}
-
-#tray>.needs-attention {
-    -gtk-icon-effect: highlight;
-    background-color: #171717;
-    color: blue;
-}
-

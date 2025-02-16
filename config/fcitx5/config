@@ -27,6 +27,8 @@ PrevCandidate=
 NextCandidate=
 # 切换是否使用嵌入预编辑
 TogglePreedit=
+# 触发修饰键快捷键的时限 (毫秒)
+ModifierOnlyKeyTimeout=250
 
 [Hotkey/TriggerKeys]
 0=Shift+Shift_L

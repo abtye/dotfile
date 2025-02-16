@@ -5,3 +5,4 @@ mako > /dev/null 2>&1 &
 wl-paste --watch cliphist -max-items 100 store > /dev/null 2>&1 &
 foot --server > /dev/null 2>&1 &
 fcitx5 > /dev/null 2>&1 &
+notify-send -w 综合评价填了吗？课本！ -u critical

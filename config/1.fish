@@ -38,6 +38,7 @@ alias p ping
 alias pacmark "sudo pacman -D --asexplicit"
 alias acg "advcp -g"
 alias amg "advmv -g"
+alias rlp realpath
 
 set RUSTUP_DIST_SERVER "https://rsproxy.cn"
 set RUSTUP_UPDATE_ROOT "https://rsproxy.cn/rustup"

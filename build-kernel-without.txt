@@ -129,6 +129,7 @@ snd-sof-amd-acp.ko.zst
 snd-sof-amd-renoir.ko.zst
 xtensa
 └── snd-sof-xtensa-dsp.ko.zst
+vivaldi-fmap
 
 CONFIG_DRM_SIMPLEDRM
 CONFIG_SYSFB_SIMPLEFB
@@ -138,3 +139,4 @@ CONFIG_TRANSPARENT_HUGEPAGE
 CONFIG_HUGETLBFS
 CONFIG_HPET
 CONFIG_WATCHDOG
+

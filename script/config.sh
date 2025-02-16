@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 配置目录
-CONFIG_DIR="$PWD/config"
+CONFIG_DIR="$PWD/../config"
 
 # 用户配置目录
 USER_CONFIG_DIR="$HOME/.config"
@@ -10,6 +10,7 @@ USER_CONFIG_DIR="$HOME/.config"
 CONFIG_FOLDERS=(
     "vim"
     "fcitx5"
+    "fontconfig"
     "foot"
     "fsearch"
     "labwc"
