@@ -14,9 +14,11 @@ end
 # pnpm end
 
 fish_add_path /home/lin/.local/bin
-fish_add_path /usr/lib/jvm/java-21-openjdk/bin
+#fish_add_path /usr/lib/jvm/java-21-openjdk/bin
 #fish_add_path /home/lin/.local/dragonwell/bin
 fish_add_path /home/lin/go/bin
+fish_add_path /home/lin/.local/graalvm/bin
+
 
 alias codew "code --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-wayland-ime --wayland-text-input-version=3 --enable-features=WaylandWindowDecorations --ozone-platform-hint=wayland"
 
@@ -34,6 +36,7 @@ alias s sudo
 alias br brightnessctl
 alias aap "aapt2 dump badging"
 alias gc1 "git clone --depth=1"
+alias gf1 "git fetch --depth=1"
 alias p ping
 alias pacmark "sudo pacman -D --asexplicit"
 alias acg "advcp -g"

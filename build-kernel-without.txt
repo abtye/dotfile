@@ -111,6 +111,8 @@ File systems
     Virtio Filesystem
     Pseudo filesystems
 	HugeTLB file system support
+    Miscellaneous filesystems
+	SquashFS 4.0 - Squashed file system support
     Network File Systems
 	NFS client support
 
@@ -140,3 +142,6 @@ CONFIG_HUGETLBFS
 CONFIG_HPET
 CONFIG_WATCHDOG
 
+需要
+squashfs
+CONFIG_SQUASHFS

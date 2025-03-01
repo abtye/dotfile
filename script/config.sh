@@ -37,5 +37,7 @@ done
 ln -svf $CONFIG_DIR/1.fish $USER_CONFIG_DIR/fish/conf.d/1.fish
 ln -svf $CONFIG_DIR/chromium-flags.conf $USER_CONFIG_DIR/chromium-flags.conf
 ln -svf $CONFIG_DIR/drirc $HOME/.drirc
+mkdir -p /home/lin/.local/share/themes/Onyx-black/openbox-3
+ln -svf $CONFIG_DIR/labwc.themerc /home/lin/.local/share/themes/Onyx-black/openbox-3/themerc
 
 echo "配置更新成功"
