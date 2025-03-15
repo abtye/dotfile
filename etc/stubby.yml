@@ -1,0 +1,37 @@
+# 不支持以::结尾的IPv6地址，用::0
+
+# 日志级别 GETDNS_LOG_{EMERG,ALERT,CRIT,ERR,WARNING,NOTICE,INFO,DEBUG}
+
+log_level: GETDNS_LOG_EMERG
+
+resolution_type: GETDNS_RESOLUTION_STUB
+
+dns_transport_list:
+  - GETDNS_TRANSPORT_TLS
+
+tls_authentication: GETDNS_AUTHENTICATION_REQUIRED
+
+tls_query_padding_blocksize: 128
+
+# edns_client_subnet_private 指的是edns隐私保护，国内的话设为0，否则会导致cdn解析到国外
+edns_client_subnet_private : 0
+
+# round_robin_upstreams  指的是dns轮询，可根据自己测试关闭与否，设置为0即为关闭
+round_robin_upstreams: 1
+
+idle_timeout: 10000
+
+tls_min_version: GETDNS_TLS1_2
+
+listen_addresses:
+  - 127.0.0.1
+  - 0::1
+
+appdata_dir: "/var/cache/stubby"
+
+upstream_recursive_servers:
+  - address_data: 223.5.5.5
+    tls_auth_name: "dns.alidns.com"
+
+  - address_data: 2400:3200:baba::1
+    tls_auth_name: "dns.alidns.com"

@@ -15,6 +15,24 @@ if [ ! -f "$input_file" ]; then
     exit 1
 fi
 
+# 检查 curl
+if ! command -v curl &>/dev/null; then
+    echo "curl 未安装"
+    exit 1
+fi
+
+# 检查 nc
+if ! command -v nc &>/dev/null; then
+    echo "nc 未安装"
+    exit 1
+fi
+
+# 检查 wscat
+if ! command -v wscat &>/dev/null; then
+    echo "wscat 未安装"
+    exit 1
+fi
+
 # 清空输出文件
 > "$output_file"
 

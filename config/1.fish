@@ -26,6 +26,7 @@ alias bim vim
 alias cls "clear;ls"
 alias ks ls
 alias wss "waydroid session start"
+alias wst "waydroid session stop"
 alias wui "waydroid show-full-ui"
 alias wdd waydroid
 alias svim "sudo vim"
