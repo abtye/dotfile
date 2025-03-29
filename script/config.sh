@@ -34,7 +34,9 @@ for folder in "${CONFIG_FOLDERS[@]}"; do
 
 done
 
+# 链接文件
 ln -svf $CONFIG_DIR/1.fish $USER_CONFIG_DIR/fish/conf.d/1.fish
+ln -svf $CONFIG_DIR/color.fish $USER_CONFIG_DIR/fish/conf.d/color.fish
 ln -svf $CONFIG_DIR/chromium-flags.conf $USER_CONFIG_DIR/chromium-flags.conf
 ln -svf $CONFIG_DIR/drirc $HOME/.drirc
 mkdir -p /home/lin/.local/share/themes/Onyx-black/openbox-3

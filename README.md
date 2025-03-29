@@ -68,24 +68,24 @@ wlr-randr --dryrun
 ```
 
 ## 检测
-| 命令                  | 检测               | 来自         |
-| --------------------- | ------------------ | ------------ |
-| `gst-inspect-1.0 va`  | VA-API             | gstreamer    |
-| `gst-inspect-1.0 qsv` | QSV                | gstreamer    |
-| `vainfo`              | VA-API             | libva-utils  |
-| `clinfo`              | OpenCL             | clinfo       |
-| `vulkaninfo`          | Vulkan             | vulkan-tools |
-| `glxinfo -B`          | OpenGL             | mesa-utils   |
-| `eglinfo -B`          | OpenGL ES          | mesa-utils   |
-| `xeyes`               | X11                | xorg-eyes    |
-| `evhz`                | 鼠标回报率         | evhz(AUR)    |
-| `xev`                 | OpenBox和Labwc按键 | xorg-xev     |
-|                       |                    |              |
-|                       |                    |              |
-|                       |                    |              |
-|                       |                    |              |
-|                       |                    |              |
-|                       |                    |              |
+| 命令                              | 检测               | 来自          |
+| --------------------------------- | ------------------ | ------------- |
+| `gst-inspect-1.0 va`              | VA-API             | gstreamer     |
+| `gst-inspect-1.0 qsv`             | QSV                | gstreamer     |
+| `vainfo`                          | VA-API             | libva-utils   |
+| `clinfo`                          | OpenCL             | clinfo        |
+| `vulkaninfo`                      | Vulkan             | vulkan-tools  |
+| `glxinfo -B`                      | OpenGL             | mesa-utils    |
+| `eglinfo -B`                      | OpenGL ES          | mesa-utils    |
+| `xeyes`                           | X11                | xorg-eyes     |
+| `evhz`                            | 鼠标回报率         | evhz(AUR)     |
+| `xev`                             | OpenBox和Labwc按键 | xorg-xev      |
+| `wayland-info \| grep text_input` | Wayland输入法协议  | wayland-utils |
+|                                   |                    |               |
+|                                   |                    |               |
+|                                   |                    |               |
+|                                   |                    |               |
+|                                   |                    |               |
 
 
 ## 关闭CoreDump
@@ -101,3 +101,32 @@ ProcessSizeMax=0
 sudo systemctl daemon-reload
 ```
 
+
+## 输入法
+
+Chromium 使用`--gtk-version=4`来支持输入法时，如果 Fcitx5 不启用"在程序中显示预编辑文本"，是看不到输入法的
+
+而如果开启"在程序中显示预编辑文本"，在 Sublime Text 中又看不到输入法了，二者相互冲突
+
+从 Chromium 129，Electron 33 开始支持了 text-input-v3 ，原本以为可以不用打 text-input-v1 补丁了，但是居然有不能按键重复的问题
+
+具体表现为在网址栏输入一堆字，按住方向键不会重复，以及b站无法使用右方向键3倍速
+
+所以`chromium.conf`调整为
+```conf
+--gtk-version=3
+--enable-wayland-ime
+--wayland-text-input-version=1
+```
+
+## Python venv
+
+`--system-site-packages`使用系统包
+
+```bash
+python -m venv --system-site-packages venv
+```
+
+## Intel libhoudini
+
+libnb.so 库允许 libhoudini 在 AMD 处理器上运行

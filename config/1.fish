@@ -46,3 +46,4 @@ alias rlp realpath
 
 set RUSTUP_DIST_SERVER "https://rsproxy.cn"
 set RUSTUP_UPDATE_ROOT "https://rsproxy.cn/rustup"
+

@@ -39,4 +39,4 @@ cat file1.txt file2.txt file3.txt file4.txt | sort | uniq | sed '/^\s*$/d' > all
 ./test_trackers.sh all.txt
 
 # 清理临时文件
-rm -f file1.txt file2.txt file3.txt file4.txt
+rm -f file1.txt file2.txt file3.txt file4.txt all.txt

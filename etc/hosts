@@ -1,0 +1,40 @@
+127.0.0.1 localhost
+::1 localhost
+
+# bing
+#13.107.21.200 bing.com
+#13.107.21.200 www.bing.com
+#13.107.21.200 cn.bing.com
+
+# fake police
+0.0.0.0 slotsuavd.info
+
+# sublime-text
+0.0.0.0 sublimetext.com
+0.0.0.0 www.sublimetext.com
+0.0.0.0 license.sublimehq.com
+
+
+117.135.214.4 mail.126.com
+
+# microsoft
+#20.70.246.20 microsoft.com
+#20.190.144.160 login.microsoftonline.com
+#20.190.144.165 login.microsoft.com
+#2603:1030:c02:8::14 microsoft.com
+
+# bilibili
+139.159.241.37 bilibili.com
+183.232.239.18 www.bilibili.com
+183.232.239.18 a.w.bilicdn1.com
+183.232.239.18 api.vc.bilibili.com
+183.131.115.98 i0.hdslb.com
+183.131.115.98 i0.hdslb.com.w.kunlunno.com
+
+2409:8c54:4840:700::12 www.bilibili.cpm
+2409:8c54:4840:700::12 a.w.bilicdn1.com
+2409:8c54:4840:700::12 api.vc.bilibili.com
+2408:8740:71fc:409:3::3ec i0.hdslb.com
+2408:8740:71fc:409:3::3ec i0.hdslb.com.w.kunlunno.com
+
+
