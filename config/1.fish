@@ -32,8 +32,7 @@ alias wdd waydroid
 alias svim "sudo vim"
 alias spac "sudo pacman"
 alias pac pacman
-alias c clear
-alias s sudo
+alias c "clear -T foot"
 alias br brightnessctl
 alias aap "aapt2 dump badging"
 alias gc1 "git clone --depth=1"
@@ -43,6 +42,8 @@ alias pacmark "sudo pacman -D --asexplicit"
 alias acg "advcp -g"
 alias amg "advmv -g"
 alias rlp realpath
+alias pro "echo http_proxy=http://[::1]:10808 https_proxy=http://[::1]:10808"
+alias 777 "7z x -mmt4$(nproc)"
 
 set RUSTUP_DIST_SERVER "https://rsproxy.cn"
 set RUSTUP_UPDATE_ROOT "https://rsproxy.cn/rustup"

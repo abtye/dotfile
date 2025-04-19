@@ -13,14 +13,14 @@ background-color=#333333
 
 [urgency=low]
 background-color=#555555
-on-notify=exec ffplay -nodisp -autoexit /usr/share/sounds/freedesktop/stereo/message.oga
+on-notify=exec pw-play /usr/share/sounds/freedesktop/stereo/message.oga
 
 [urgency=normal]
 background-color=#333333
-on-notify=exec ffplay -nodisp -autoexit /usr/share/sounds/freedesktop/stereo/complete.oga
+on-notify=exec pw-play /usr/share/sounds/freedesktop/stereo/complete.oga
 
 
 [urgency=high]
 background-color=#ff0000
 default-timeout=0
-on-notify=exec ffplay -nodisp -autoexit /usr/share/sounds/freedesktop/stereo/suspend-error.oga
+on-notify=exec pw-play /usr/share/sounds/freedesktop/stereo/suspend-error.oga

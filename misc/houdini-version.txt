@@ -1,0 +1,18 @@
+wsa              11.0.1b_z.38765.m
+chromeos_brya    11.0.1f_y.38795.g
+
+wsa12.1          12.0.0a_z.38818.m
+hpe              12.0.0h_z.38865.g
+aow              12.0.1_y.39067.m
+
+chromeos_volteer 13.0.0a_y.39188.g
+chromeos_hatch   13.0.0a_y.39188.g
+wsa13            13.0.0a_y.39190.m
+chromeos_nissa   13.0.1_y.39489.g            https://github.com/Waydroid-ATV/vendor_intel_proprietary_houdini
+
+hpe              14.0.0b_z.GoogleGame_com1.0 https://github.com/rote66/vendor_intel_proprietary_houdini/tree/HPE
+
+
+
+
+

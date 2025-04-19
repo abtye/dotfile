@@ -1,0 +1,13 @@
+{
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Adaptive.sublime-theme",
+	"font_face": "CodeNewRoman Nerd Font",
+	"font_size": 20,
+	"index_files": true,
+	"color_scheme": "Monokai.sublime-color-scheme",
+	"hardware_acceleration":"opengl"
+}
+

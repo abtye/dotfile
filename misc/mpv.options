@@ -8,7 +8,7 @@ build() {
         -Dcdda=disabled
         -Ddvbin=disabled
         -Ddvdnav=disabled
-        -Dlibarchive=enabled
+        -Dlibarchive=disabled
         -Dopenal=disabled
         -Dalsa=disabled
         -Daudiounit=disabled

@@ -1,4 +1,8 @@
-echo -e "\033[32m CPU 调度策略 \033[0m"
+echo -e "\033[32m CPU 可用调度策略 \033[0m"
+cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_available_governors
+echo -e "----------"
+
+echo -e "\033[32m CPU 当前调度策略 \033[0m"
 cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
 echo -e "----------"
 
