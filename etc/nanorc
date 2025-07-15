@@ -1,0 +1,27 @@
+# 自动缩进
+set autoindent
+# 超出换行
+set breaklonglines
+# 区分大小写
+set casesensitive
+# 滚动条
+set indicator
+set jumpyscrolling
+# 行号
+set linenumbers
+# 匹配括号
+set matchbrackets "(<[{)>]}"
+# 隐藏底部
+set nohelp
+# Tab 4空格
+set tabsize 4
+# 空格缩进
+set tabstospaces
+# 语法高亮
+include "/usr/share/nano/*.nanorc"
+# Ctrl+F 查找
+bind ^F whereis all
+# Ctrl+Z 撤销
+bind ^Z undo main
+# Ctrl+Y 重做
+bind ^Y redo main

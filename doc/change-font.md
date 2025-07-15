@@ -1,0 +1,11 @@
+# 要修改的字体
+1. nwg-look
+2. qt6ct
+3. fcitx5-configtool
+4. chromium
+5. vscode
+6. `~/.config/mpv/mpv.conf`
+7. `~/.config/mpv/scripts/modernx.lua`
+8. `~/.config/foot/foot.ini`
+9. `~/.config/mako/config`
+10. `~/.config/waybar/style.css`

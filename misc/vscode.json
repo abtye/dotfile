@@ -1,0 +1,16 @@
+{
+    "editor.fontFamily": "'CodeNewRoman Nerd Font Mono','Source Han Sans SC'",
+    "editor.fontSize": 20,
+    "extensions.verifySignature": false,
+    "python.languageServer": "Pylance",
+    "security.workspace.trust.enabled": false,
+    "window.controlsStyle": "custom",
+    "window.dialogStyle": "custom",
+    "workbench.colorTheme": "Monokai",
+    "javascript.format.semicolons": "remove",
+    "workbench.iconTheme": "vscode-icons",
+    "python.analysis.languageServerMode": "full",
+    "files.autoSave": "onFocusChange",
+    "explorer.confirmDragAndDrop": false,
+    "telemetry.telemetryLevel": "off"
+}

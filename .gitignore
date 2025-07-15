@@ -1,0 +1,7 @@
+config/vim/.netrwhist
+config/fcitx5/conf/cached_layouts
+config/mpv/fonts
+wine/dxvk
+wine/dxvk-*.gz
+bt/*.txt
+.idea

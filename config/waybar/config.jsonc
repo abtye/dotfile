@@ -1,0 +1,81 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "width": 1920,
+    "height": 30,
+    "spacing": 0,
+    "margin": 0,
+    "padding": 0,
+    "modules-left": [
+        "custom/launcher",
+        "wlr/taskbar"
+    ],
+    "modules-right": [
+        "tray",
+        // "wireplumber",
+        "pulseaudio",
+        "backlight",
+        "battery",
+        "clock"
+    ],
+    "wlr/taskbar": {
+        "format": "{icon} {title:.10}",
+        "min-width": 100,
+        "icon-size": 32,
+        "icon-theme": "Papirus-Dark",
+        "tooltip-format": "{title}",
+        "on-click": "minimize-raise"
+
+    },
+    "tray": {
+        "icon-size": 32,
+        "spacing": 0
+    },
+    "clock": {
+        "tooltip-format": "{:%Y-%m-%d %a}",
+        "format": "{:%I:%M}" // 12小时制格式
+    },
+    "backlight": {
+        "format": "{icon}{percent}",
+        "format-icons": [
+            "󰹐 ",
+            "󱩍 ",
+            "󱩎 ",
+            "󱩏 ",
+            "󱩐 ",
+            "󱩑 ",
+            "󱩒 ",
+            "󱩓 ",
+            "󱩕 ",
+            "󱩖 "
+        ]
+    },
+    // WirePlumber模块不支持耳机图标，所以暂时用pulseaudio
+    "pulseaudio": {
+        "format": "{icon}  {volume}%",
+        "format-muted": "󰖁",
+        "format-icons": {
+            "headphone": "",
+            "default": ""
+        },
+        "scroll-step": 1
+    },
+    "custom/launcher": {
+        "format": "   ",
+        "on-click": "wofi --show drun",
+        "on-click-right": "killall wofi"
+    },
+    "battery": {
+        "bat": "BAT0",
+        "interval": 300, // 5分钟轮询一次
+        "format": "{icon} {capacity}",
+        "format-charging": "充电中 {capacity}",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    }
+}

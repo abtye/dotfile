@@ -1,0 +1,49 @@
+build() {
+    local _meson_options=(
+        --auto-features auto
+
+        -Dlibmpv=true
+        -Dgl-x11=disabled
+        -Dcaca=disabled
+        -Dcdda=disabled
+        -Ddvbin=disabled
+        -Ddvdnav=disabled
+        -Dlibarchive=disabled
+        -Dopenal=disabled
+        -Dalsa=disabled
+        -Daudiounit=disabled
+        -Dcoreaudio=disabled
+        -Davfoundation=disabled
+        -Djack=disabled
+        -Dopensles=disabled
+        -Doss-audio=disabled
+        -Dpulse=disabled
+        -Dsdl2-audio=disabled
+        -Dsndio=disabled
+        -Dwasapi=disabled
+        -Dcaca=disabled
+        -Dcocoa=disabled
+        -Dd3d11=disabled
+        -Ddirect3d=disabled
+        -Ddmabuf-wayland=disabled
+        -Ddrm=disabled
+        -Degl=disabled
+        -Dgbm=disabled
+        -Dgl=disabled
+        -Dsixel=disabled
+        -Dvdpau=disabled
+        -Dx11=disabled
+        -Dcuda-hwaccel=disabled
+        -Djavascript=disabled
+        -Dcuda-interop=disabled
+        -Dvdpau-gl-x11=disabled
+        -Dvaapi-x11=disabled
+        -Dlibbluray=disabled
+
+
+    )
+
+    arch-meson "${pkgname}" build "${_meson_options[@]}"
+
+    meson compile -C build
+}

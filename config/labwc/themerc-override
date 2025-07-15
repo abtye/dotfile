@@ -1,0 +1,25 @@
+border.color: #888888
+
+# 窗口标题栏背景色
+window.active.title.bg.color: #3535335
+window.inactive.title.bg.color: #3535335
+
+# 窗口标题栏文本色
+window.active.label.text.color: #ffffff
+window.inactive.label.text.color: #ffffff
+
+# 窗口按钮
+window.active.button.unpressed.image.color: #ffffff
+window.inactive.button.unpressed.image.color: #ffffff
+
+# 窗口菜单
+menu.items.bg.color: #444444
+menu.items.text.color: #ffffff
+menu.items.active.bg.color: #333333
+menu.items.active.text.color: #ffffff
+
+# Alt+Tab
+bg.color: #353535
+osd.border.color: #ffffff
+osd.border.width: 1
+osd.label.text.color: #ffffff

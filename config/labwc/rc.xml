@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<labwc_config>
+  <theme>
+    <name/>
+    <cornerRadius>10</cornerRadius>
+    <font name="sans" size="16"/>
+    <dropShadows>no</dropShadows>
+  </theme>
+  <keyboard>
+    <default/>
+    <keybind key="W-Return">
+      <action name="Execute" command="footclient"/>
+    </keybind>
+    <keybind key="A-Return">
+      <action name="Execute" command="wofi --show drun"/>
+    </keybind>
+    <keybind key="W-s">
+      <action name="Execute" command="sh -c /home/lin/.local/bin/capture"/>
+    </keybind>
+    <keybind key="Print">
+      <action name="Execute" command="sh -c /home/lin/.local/bin/getScreen"/>
+    </keybind>
+    <keybind key="W-v">
+      <action name="Execute" command="sh -c /home/lin/.local/bin/copyd"/>
+    </keybind>
+    <keybind key="XF86_AudioLowerVolume">
+      <action name="Execute" command="wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"/>
+    </keybind>
+    <keybind key="XF86_AudioRaiseVolume">
+      <action name="Execute" command="wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"/>
+    </keybind>
+    <keybind key="XF86_AudioMute">
+      <action name="Execute" command="wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"/>
+    </keybind>
+    <keybind key="XF86_RFKill">
+      <action name="Execute" command="togglewifi"/>
+    </keybind>
+    <keybind key="XF86_MonBrightnessUp">
+      <action name="Execute" command="brightnessctl set 5%+"/>
+    </keybind>
+    <keybind key="XF86_MonBrightnessDown">
+      <action name="Execute" command="brightnessctl set 5%-"/>
+    </keybind>
+    <keybind key="XF86_MonBrightnessDown">
+      <action name="Execute" command="brightnessctl set 5%-"/>
+    </keybind>
+  </keyboard>
+  <mouse>
+    <default/>
+    <context name="Root">
+      <mousebind button="Right" action="Press">
+        <action name="ShowMenu" menu="some-custom-menu"/>
+      </mousebind>
+    </context>
+  </mouse>
+  <placement>
+    <policy>Center</policy>
+  </placement>
+  <libinput>
+    <device>
+      <naturalScroll>no</naturalScroll>
+    </device>
+  </libinput>
+</labwc_config>

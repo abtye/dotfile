@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 8px;
+    font-family: "CodeNewRoman Nerd Font", "Source Han Sans SC";
+    font-size: 24px;
+    color: white;
+}
+
+label.module{
+    padding: 0 10px;
+}
+
+#tray{
+    min-width: 50px;
+}
+
+#waybar {
+    background-color: #333333
+}
+
+#clock {
+    background-color: #64727D;
+}
+
+#battery {
+    background-color: darkgreen;
+}
+
+#backlight {
+    background-color: #e5a50a;
+}
+
+#pulseaudio.muted {
+    color: #ff0000;
+}
+
+#taskbar>* {
+    padding: 0 10px;
+}
+
+#taskbar button.active {
+    background-color: #1b8f95;
+}
+
+#tray {
+    background-color: #64727D;
+}

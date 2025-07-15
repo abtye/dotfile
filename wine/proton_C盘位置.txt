@@ -1,0 +1,2 @@
+替换 <id>
+~/.local/share/Steam/steamapps/compatdata/<id>/pfx/drive_c

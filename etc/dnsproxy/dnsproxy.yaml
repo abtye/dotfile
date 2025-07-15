@@ -1,0 +1,15 @@
+---
+bootstrap:
+  - "223.5.5.5:53"
+listen-addrs:
+  - "127.0.0.1"
+listen-ports:
+  - 53
+max-go-routines: 0
+ratelimit: 0
+ratelimit-subnet-len-ipv4: 24
+ratelimit-subnet-len-ipv6: 64
+udp-buf-size: 0
+upstream:
+  - "quic://dns.alidns.com"
+timeout: '5s'

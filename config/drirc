@@ -1,0 +1,8 @@
+<driconf>
+  <device screen="0" driver="iris">
+    <application name="Default">
+      <option name="mesa_glthread_driver" value="true" />
+      <option name="mesa_no_error" value="true" />
+    </application>
+  </device>
+</driconf>

@@ -1,0 +1,48 @@
+# 外边距
+margin=10
+# 内边距
+padding=0
+# 开启图标
+icons=1
+# 按时间排序
+sort=-time
+# 最上层
+layer=overlay
+# 大小
+width=400
+height=300
+# 边框
+border-size=2
+border-color=#ffffff
+border-radius=10
+# 1秒后自动消失
+default-timeout=10000
+# 允许app设置通知超时时间
+ignore-timeout=0
+# 字体
+font="Source Han Sans SC" 16
+# 背景色
+background-color=#555555
+# 记录通知历史，使用 makoctl history 查看
+history=1
+# 最多记录 100 条
+max-history=100
+# 窗口显示在左上角，右上角（top-right）为默认值
+anchor=bottom-right
+
+# 不重要的消息
+[urgency=low]
+background-color=#555555
+on-notify=exec pw-play /usr/share/sounds/freedesktop/stereo/message.oga
+
+# 普通消息
+[urgency=normal]
+background-color=#333333
+on-notify=exec pw-play /usr/share/sounds/freedesktop/stereo/complete.oga
+
+# 紧急消息
+[urgency=high]
+background-color=#ff0000
+default-timeout=0
+on-notify=exec pw-play /usr/share/sounds/freedesktop/stereo/suspend-error.oga
+

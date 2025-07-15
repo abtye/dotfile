@@ -1,0 +1,28 @@
+runtime! archlinux.vim
+
+colorscheme unokai
+filetype on
+language message zh_CN.UTF-8
+
+set backspace=2
+set clipboard=unnamed
+set completeopt=preview,menu
+set confirm
+set cursorline
+set encoding=utf-8
+set fileencodings=utf-8,gb18030,big5
+set langmenu=zh_CN.UTF-8
+set list
+set listchars=tab:>▯,trail:▯
+set mouse=a
+set nobackup
+set nocompatible
+set swapfile
+set nu
+set ruler
+set shiftwidth=4
+set softtabstop=4
+set term=xterm-256color
+set termguicolors
+syntax on
+autocmd FileType c,cpp,py syntax on
