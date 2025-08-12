@@ -1,2 +1,3 @@
-alias ip "ip --color"
-alias grep "grep --color=always"
+alias ip "ip --color=auto"
+alias grep "grep --color=auto"
+alias diff="diff --color=auto"

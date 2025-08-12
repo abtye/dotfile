@@ -3,7 +3,7 @@
 # 定义目录变量
 DXVK_DIR="$PWD/dxvk"
 WINE_SYSTEM32="$HOME/.wine/drive_c/windows/system32"
-WINE_SYSWOW64="/home/lin/.wine/drive_c/windows/syswow64"
+WINE_SYSWOW64="$HOME/.wine/drive_c/windows/syswow64"
 
 # 检查dxvk目录是否存在
 if [ ! -d "$DXVK_DIR" ]; then

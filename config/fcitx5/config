@@ -5,8 +5,6 @@ EnumerateWithTriggerKeys=True
 AltTriggerKeys=
 # 向前切换输入法
 EnumerateForwardKeys=
-# 向后切换输入法
-EnumerateBackwardKeys=
 # 轮换输入法时跳过第一个输入法
 EnumerateSkipFirst=False
 # 向前切换输入分组
@@ -32,6 +30,9 @@ ModifierOnlyKeyTimeout=250
 
 [Hotkey/TriggerKeys]
 0=Shift+Shift_L
+
+[Hotkey/EnumerateBackwardKeys]
+0=Control+Shift+Shift_L
 
 [Behavior]
 # 默认状态为激活

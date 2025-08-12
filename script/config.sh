@@ -8,15 +8,20 @@ USER_CONFIG_DIR="$HOME/.config"
 
 # 要替换的目录
 CONFIG_FOLDERS=(
-    "vim"
     "fcitx5"
+    "fish"
     "fontconfig"
     "foot"
     "fsearch"
+    "gtklock"
+    "kanshi"
     "labwc"
     "mako"
     "mpv"
+    "swaync"
+    "vim"
     "waybar"
+    "waydroid-helper"
     "wofi"
 )
 
@@ -35,12 +40,13 @@ for folder in "${CONFIG_FOLDERS[@]}"; do
 done
 
 # 链接文件
-ln -svf $CONFIG_DIR/1.fish $USER_CONFIG_DIR/fish/conf.d/1.fish
-ln -svf $CONFIG_DIR/color.fish $USER_CONFIG_DIR/fish/conf.d/color.fish
+#ln -svf $CONFIG_DIR/1.fish $USER_CONFIG_DIR/fish/conf.d/1.fish
+#ln -svf $CONFIG_DIR/color.fish $USER_CONFIG_DIR/fish/conf.d/color.fish
 ln -svf $CONFIG_DIR/chromium-flags.conf $USER_CONFIG_DIR/chromium-flags.conf
 ln -svf $CONFIG_DIR/drirc $HOME/.drirc
-mkdir -p /home/lin/.local/share/themes/Onyx-black/openbox-3
-ln -svf $CONFIG_DIR/themerc /home/lin/.local/share/themes/Onyx-black/openbox-3/themerc
+ln -svf $CONFIG_DIR/npmrc $HOME/.npmrc
+# mkdir -p $HOME/.local/share/themes/Onyx-black/openbox-3
+# ln -svf $CONFIG_DIR/themerc $HOME/.local/share/themes/Onyx-black/openbox-3/themerc
 
 gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
 echo "窗口最大化最小化按钮已开启"

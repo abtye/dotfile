@@ -1,1 +1,1 @@
-sudo systemctl stop libvirtd libvirtd.socket libvirtd-admin.socket libvirtd-ro.socket
+sudo systemctl stop libvirtd.socket libvirtd-admin.socket libvirtd-ro.socket libvirtd.service

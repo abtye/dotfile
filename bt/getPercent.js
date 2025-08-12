@@ -20,28 +20,31 @@ for (let i of tds) {
 function getGigaByte(loads) {
     let byte = 0
     for (let i of loads) {
-        const info = i.split(" ")
-        let power = 0
-        switch (info[1]) {
-            case "GiB":
-            power = 3
-                break
-            case "MiB":
-            power = 2
-                break
-            case "KiB":
-            power = 1
-                break
-            default:
-                break
+        if (i !== "") {
+            const info = i.split(" ")
+            let power = 0
+            switch (info[1]) {
+                case "GiB":
+                    power = 3
+                    break
+                case "MiB":
+                    power = 2
+                    break
+                case "KiB":
+                    power = 1
+                    break
+                default:
+                    break
+            }
+            byte += 1024 ** power * parseFloat(info[0])
         }
-        byte+=1024**power*parseFloat(info[0])
+
     }
-    return (byte/1024**3).toFixed(2)
+    return (byte / 1024 ** 3).toFixed(2)
 }
 
 // 输出信息
-const percent = parseInt(getGigaByte(upload))/parseInt(getGigaByte(download))
-console.log("upload",getGigaByte(upload),"GiB")
-console.log("download",getGigaByte(download),"GiB")
-console.log("percent",(percent*100).toFixed(2),"%")
+const percent = parseInt(getGigaByte(upload)) / parseInt(getGigaByte(download))
+console.log("upload", getGigaByte(upload), "GiB")
+console.log("download", getGigaByte(download), "GiB")
+console.log("percent", percent.toFixed(2))

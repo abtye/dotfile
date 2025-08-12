@@ -1,6 +1,9 @@
 #!/usr/bin/bash
 waybar &> /dev/null &
-mako &> /dev/null &
+# mako &> /dev/null &
+# 使用swaync代替mako，因为mako不能显示操作按钮、应用图标
+# 使用"notify-send -a QQ -i vscode --action=1=2 1"测试
+swaync -c $HOME/.config/swaync/config.json &> /dev/null &
 /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &> /dev/null &
 wl-paste --watch cliphist -max-items 100 store &> /dev/null &
 foot --server &> /dev/null &

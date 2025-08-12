@@ -40,10 +40,3 @@ else
     echo "Libhoudini not found. Please install it first."
 fi
 
-
-
-
-
-
-
-

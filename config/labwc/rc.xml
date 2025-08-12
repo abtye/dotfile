@@ -52,6 +52,14 @@
         <action name="ShowMenu" menu="some-custom-menu"/>
       </mousebind>
     </context>
+    <context name="TitleBar">
+      <!-- 修复鼠标在标题栏上滚窗口消失问题 -->
+      <mousebind direction="Up" action="Scroll">
+        <action name="Focus"/>
+      </mousebind>
+      <mousebind direction="Down" action="Scroll">
+            </mousebind>
+    </context>
   </mouse>
   <placement>
     <policy>Center</policy>

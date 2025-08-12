@@ -1,8 +1,9 @@
 border.color: #888888
+border.witdh: 0
 
 # 窗口标题栏背景色
-window.active.title.bg.color: #3535335
-window.inactive.title.bg.color: #3535335
+window.active.title.bg.color: #353535
+window.inactive.title.bg.color: #353535
 
 # 窗口标题栏文本色
 window.active.label.text.color: #ffffff

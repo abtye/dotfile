@@ -1,4 +1,6 @@
-set TERM screen-256color
+#set TERM screen-256color
+#set TERM xterm-direct
+set TERM konsole
 
 if status is-interactive
 end
@@ -17,7 +19,8 @@ fish_add_path /home/lin/.local/bin
 #fish_add_path /usr/lib/jvm/java-21-openjdk/bin
 #fish_add_path /home/lin/.local/dragonwell/bin
 fish_add_path /home/lin/go/bin
-fish_add_path /home/lin/.local/graalvm/bin
+#fish_add_path /home/lin/.local/graalvm/bin
+#fish_add_path /opt/wine/bin
 
 
 alias codew "code --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --enable-wayland-ime --wayland-text-input-version=3 --ozone-platform-hint=wayland"
