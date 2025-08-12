@@ -1,0 +1,20 @@
+183.232.239.20 www.bilibili.com
+112.48.141.198 broadcast.chat.bilibili.com
+
+183.253.58.108 s1.hdslb.com
+183.252.55.192 i0.hdslb.com
+112.48.141.198 activity.hdslb.com
+2409:8c34:2220:303:3::3f7 activity.hdslb.com
+
+# 下面这些域名都会重定向到 a.w.bilicdn1.com
+112.13.92.195 a.w.bilicdn1.com
+112.13.92.195 api.bilibili.com
+112.13.92.195 api.vc.bilibili.com
+112.13.92.195 t.bilibili.com
+112.13.92.195 passport.bilibili.com
+112.13.92.195 message.bilibili.com
+
+# 下面这些域名都会重定向到 a.w.bilicdn2.com
+117.169.98.22 a.w.bilicdn1.com
+117.169.98.22 data.bilibili.com
+

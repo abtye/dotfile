@@ -1,0 +1,218 @@
+{
+  "version": "1.0",
+  "screen_resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "widgets": [
+    {
+      "type": "singleclick",
+      "x": 135.0,
+      "y": 850.0,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "A",
+      "default_keys": [
+        [
+          "A"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 442.0,
+      "y": 848.0,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "D",
+      "default_keys": [
+        [
+          "D"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1738.0,
+      "y": 382.0,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "0",
+      "default_keys": [
+        [
+          "0"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1147.0,
+      "y": 923.0,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "G",
+      "default_keys": [
+        [
+          "G"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1358.0,
+      "y": 782.0,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "2",
+      "default_keys": [
+        [
+          "2"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1447.0,
+      "y": 574.0,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "3",
+      "default_keys": [
+        [
+          "3"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1432.0,
+      "y": 904.0,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "U",
+      "default_keys": [
+        [
+          "U"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 655.0,
+      "y": 950.0,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "T",
+      "default_keys": [
+        [
+          "T"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 658.0,
+      "y": 800.0,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "R",
+      "default_keys": [
+        [
+          "R"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1207.0,
+      "y": 850.0,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "1",
+      "default_keys": [
+        [
+          "1"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1524.5625,
+      "y": 704.625,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "J",
+      "default_keys": [
+        [
+          "J"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1722.9375,
+      "y": 865.51953125,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "Space",
+      "default_keys": [
+        [
+          "Space"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1720.03515625,
+      "y": 587.1484375,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "K",
+      "default_keys": [
+        [
+          "K"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1652.91015625,
+      "y": 380.96484375,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "9",
+      "default_keys": [
+        [
+          "9"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1505.9296875,
+      "y": 382.10546875,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "7",
+      "default_keys": [
+        [
+          "7"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1568.734375,
+      "y": 382.44140625,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "8",
+      "default_keys": [
+        [
+          "8"
+        ]
+      ]
+    }
+  ],
+  "created_at": "/home/lin"
+}

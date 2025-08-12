@@ -1,0 +1,1 @@
+/home/lin/dotfile/config/1.fish
