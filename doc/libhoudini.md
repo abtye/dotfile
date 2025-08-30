@@ -2,9 +2,12 @@
 
 ~~目前的完美方案：~~
 ```
+1.5.4.r7.g2c41162-1
+lineage_waydroid_x86_64-userdebug 11 RQ3A.211001.001 147 test-keys
 Android 11
 蔚蓝档案 wsa-patched
 猫和老鼠 chromeos_brya-patched
+QQ wsa-patched
 ```
 
 ```
@@ -70,3 +73,11 @@ https://github.com/supremegamers/vendor_intel_proprietary_houdini/
 - `ndk_chromeos_guybrush` 闪退
 - `ndk_chromeos_guybrush-patcched` 闪退
 - `chromeos_hatch` 卡启动
+
+### QQ
+9.1.0(versionCode="7518") play
+
+#### 有问题
+
+- `wsa-patched` 偶尔闪退
+

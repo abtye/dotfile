@@ -22,7 +22,7 @@ systemctl --user start obex.service
 ## 关闭
 
 ```bash
-sudo rfkill block bluetooth
-sudo systemctl stop bluetooth.service
 systemctl --user stop obex.service
+sudo systemctl stop bluetooth.service
+sudo rfkill block bluetooth
 ```

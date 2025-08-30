@@ -1,0 +1,30 @@
+# 工具
+
+- 安装狮
+- 搞机工具箱
+- 甲壳虫ADB助手
+- Activity Manager
+- AppManager
+- AppOps
+- Devcheck
+- DSU Side Loader
+- GKD
+- Hunter
+- InstallerX
+- KernelSU
+- LawnChair
+- Link2SD
+- LSPatch
+- LSPosed
+- Magisk
+- mono
+- MT管理器
+- OPatch
+- QuickShortcutMaker
+- QuickStep
+- SAI安装器
+- Shizuku
+- TEE Checker
+- Treble Check
+- Treble Info
+- Trebuchet

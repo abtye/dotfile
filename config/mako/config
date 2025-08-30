@@ -20,7 +20,7 @@ default-timeout=10000
 # 允许app设置通知超时时间
 ignore-timeout=0
 # 字体
-font="Source Han Sans SC" 16
+font="Source Han Sans SC" 14
 # 背景色
 background-color=#555555
 # 记录通知历史，使用 makoctl history 查看

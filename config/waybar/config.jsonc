@@ -2,6 +2,7 @@
 //    "layer": "top",
     "layer": "bottom",
     "position": "bottom",
+//    "position": "top",
     "width": 1920,
     "height": 30,
     "spacing": 0,

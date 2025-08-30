@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import subprocess
 
 family = "sans-serif"
@@ -18,8 +19,8 @@ languages = {
     "ta": ["泰米尔语", "Noto Sans Tamil"],
     "te": ["泰卢固语", "Noto Sans Telugu"],
     "ml": ["马拉雅拉姆语", "Noto Sans Malayalam"],
-    "ar": ["阿拉伯语", "Noto Sans Arabic"],
-    "fa": ["波斯语", "Noto Naskh Arabic"],
+    "ar": ["阿拉伯语", "Noto Sans Arabic UI"],
+    "fa": ["波斯语", "Noto Sans Arabic UI"],
     "he": ["希伯来语", "Noto Sans Hebrew"],
     "ur": ["乌尔都语", "Noto Nastaliq Urdu"],
     "ru": ["俄语", "Noto Sans"],

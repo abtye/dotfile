@@ -9,3 +9,4 @@
 8. `~/.config/foot/foot.ini`
 9. `~/.config/mako/config`
 10. `~/.config/waybar/style.css`
+11. `~/.config/swaync/style.css`

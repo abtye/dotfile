@@ -23,7 +23,7 @@ local user_opts = {
     scalefullscreen = 1.0,      -- scaling of the controller when fullscreen
     scaleforcedwindow = 2.0,    -- scaling when rendered on a forced window
     vidscale = true,            -- scale the controller with the video?
-    hidetimeout = 1000,         -- duration in ms until the OSC hides if no
+    hidetimeout = 500,         -- duration in ms until the OSC hides if no
                                 -- mouse movement. enforced non-negative for the
                                 -- user, but internally negative is 'always-on'.
     fadeduration = 250,         -- duration of fade out in ms, 0 = no fade

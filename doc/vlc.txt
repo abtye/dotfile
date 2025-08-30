@@ -1,0 +1,18 @@
+https://www.cnblogs.com/zhou1/p/13515653.html
+libvlc 二次开发用QT编译客户端初始化vlc实例时：
+
+需要移除无用的插件，可能于xp系统不兼容，不自己编译libvlc的话，那么就选择用官网的插件然后移除有问题的。
+
+用到libvlc2.2.8,此版本是和xp系统兼容的最高版本了，测试了它以上版本都不能在xp上播放网络流，要想二次开发播放器，其他版本可能需要移除更多
+
+#无法定位程序输入点 strtok_s 于动态链接库 msvcrt.dll上
+原因已经找到：主要是由于vlc相关插件编译存在兼容性问题引起，详情如下：
+问题plugins目录：access
+问题文件：liblibbluray_plugin.dll 将此文件移除
+
+#无法找到入口: 无法定位程序输入点 InitOnceExecuteOnce 于动态链接库 KERNEL32.dll 上。
+问题目录：audio_output
+问题文件：libwasapi_plugin.dll 将此文件移除
+
+vlc 3.0.0及其以上版本在xp系统上不兼容，能够打开vlc播放本地文件，但是播放网络流rtsp或者其他类型流媒体URL无法识别；
+vlc2.2.8及其以下版本的才可以在xp系统上正常运行，H265视频也可以播放，但是性能略差
